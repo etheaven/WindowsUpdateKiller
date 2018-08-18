@@ -8,7 +8,7 @@ I dislike Microsoft from doing this and will do anything to prevent Windows Upda
 This service repeatedly tries to first `Stop` the windows update then make it `"Disabled"` in `services.msc` so it will never realy bother you. That's all it does:)
 
 # Running the service
-All you need to do is compile the source and then launch cmd as Administrator then type `WinUpdateKiller.exe -install` and start the service in `services.msc`  
+All you need to do is compile the source (or download the Release at [Releases](https://github.com/etheaven/WindowsUpdateKiller/releases/tag/1.0)) and then launch cmd as Administrator then type `WinUpdateKiller.exe -install` and start the service in `services.msc`  
 The next time you start your computer the service is running and doing it's job:)
 
 # Uninstalling the service
