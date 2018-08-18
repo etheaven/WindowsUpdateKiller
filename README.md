@@ -8,4 +8,4 @@ I dislike Microsoft from doing this and will do anything to prevent Windows Upda
 All you need to do is compile the source and then launch cmd as Administrator then type `WinUpdateKiller.exe -install`
 
 # Uninstalling the service
-To uninstall the service you only need to type `WinUpdateKiller.exe -install` into the cmd ran as Administrator
+To uninstall the service you only need to type `WinUpdateKiller.exe -uninstall` into the cmd ran as Administrator
