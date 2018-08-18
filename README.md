@@ -4,7 +4,7 @@ A service to kill windows update anytime it starts
 As there was no way to really disable windows update from making itself back Manual from Disabled status, I had to make this service because there was no such solution available  
 I dislike Microsoft from doing this and will do anything to prevent Windows Update happenning on my machine again
 
-# What this does?
+# What this does? / How it works?
 This service repeatedly tries to first `Stop` the windows update then make it `"Disabled"` in `services.msc` so it will never realy bother you. That's all it does:)
 
 # Running the service
